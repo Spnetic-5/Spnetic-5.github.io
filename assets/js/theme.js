@@ -2,7 +2,7 @@
 
 let toggleTheme = (theme) => {
   if (theme == "dark") {
-    setTheme("light");
+    setTheme("dark");
   } else {
     setTheme("dark");
   }
@@ -38,6 +38,7 @@ let transTheme = () => {
 
 
 let initTheme = (theme) => {
+  theme = 'dark';
   if (theme == null) {
     const userPref = window.matchMedia;
     if (userPref && userPref('(prefers-color-scheme: dark)').matches) {

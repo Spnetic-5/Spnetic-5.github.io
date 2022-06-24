@@ -1,38 +1,35 @@
-- title: Compiler Team, AMD
-  year: January 2022 - Present
-  role: Co-Op Intern
+- title: Milvus @ OSPP Summer 2022
+  year: June 2022 - Present
+  role: Open Source Developer
   description:
-  - 'Working with the backend compiler team on AOCC'
+  - Developing a Face Recognition Pipeline using Milvus Database, Image Processing Algorithms and Deep learning.
+  - The procedure includes Face detection using MTCNN, storing the data of Face embeddings on Milvus Database and Face classification.
   
-- title: Libcamera @ Google Summer of Code 2021
-  year: May 2021 - September 2021
+- title: GroundUp, Inc.
+  year: Feb 2021 - Present
+  role: Software Developer Intern
+  description:
+  - Actively developing new features inside the React Native based GroundUp Mobile Applications, and the Admin Panel web application for monitoring the entire ecosystem.
+  - Fixed issues and bugs in the present builds, optimized workflow of the applications.
+  - Written Unit tests for testing different components inside the application using React native oriented frameworks like Jest and Enzyme.
+
+- title: iNeuron.ai, Inc.
+  year: Dec 2021 - Jan - 2022
+  role: AI Intern
+  description:
+  - Developed a solution to a problem statement Automated Invoice Processing with OCR and Deep Learning.
+  - Worked on Digitizing an Invoice which includes extracting pertinent information/data from scanned or PDF invoices and transforming it into a machine readable format that is both editable and searchable.
+
+- title: ROS @ OSPP Summer 2021
+  year: July 2021 - Sept 2021
   role: Open Source Developer
   description:
-  - 'Libcamera is an open source camera stack and framework for Linux, Android, and ChromeOS. GStreamer libcamera element allows libcamera to be used in GStreamer pipelines.'
-  - 'Enabled GStreamer Libcamera element to support multi streaming on raspberrypi and IPU3 IPA module. Improved testing framework and code coverage by adding unit tests for gstreamer element.'
-  - 'Contributed more than 10 patches and around 1000+ Lines of Code. Improved experience of 100s of libcamera users.'
-  - '<b>Report</b>: <a href="https://summerofcode.withgoogle.com/projects/#6332672818806784">summerofcode.withgoogle.com</a>'
+  - The Institute of Software Chinese Academy of Sciences and OpenEuler selected me for the coveted Open Source Promotion Plan initiative.
+  - Developed safety watchdog node in C++ to ensure the mobile robot is acting properly and not about to collide with an obstacle based on lidar, RGBD data.
 
-- title: Advanced Real-Time Simulation Laboratory (ARS), Carleton University
-  year: May 2021- August 2021
-  role: Research Intern
+- title: AIRPIX, Inc.
+  year: May 2021 - Aug 2021
+  role: AI, ML, and Edge Computing Intern
   description:
-  - 'Cadmium is a framework to describe multiple Discrete-Event Simulation formalisms and has the tools to simulate those models. Modelled sensor-fusion system, using DEVS formalism.'
-  - 'The model implements a complementary filter algorithm to fuse readings from gyroscope and accelerometer. To introduce redundancy, it utilizes five IMU sensors, Majority vote algorithm decides an appropriate reading from the five sensors, which is given to the complimentary filter.'
-  - 'Simulated this using Cadmium and verified it on STM32 Nucleo-F401R developer kit using mbed-os.'
-  - '<b>Report</b>: <a href="https://drive.google.com/file/d/1e9wVs48T95dMAKHxLRLMfWLH6zLHmqdG/view">drive.google.com</a>'
-
-- title: BeagleBoard.org @ Google Summer of Code 2020
-  year: May 2020- September 2020
-  role: Open Source Developer
-  description:
-  - 'Created simpPRU, statically typed, compiled language for TI’s am335x PRU(programmable real time unit). Used bison, flex to create parser and lexer, then converted code down to C, rather than ASM. It is being used by 100s of unique users.'
-  - 'Syntax, reminiscent of python, eases programming the PRU. Extensively used Linux Kernel’s Remoteproc framework.'
-  - 'Distributed via Debian packages, and CI/CD using docker and github actions. Contributed to pru-gcc toolchain, and added support for it on TI AM572x.'
-  - '<b>Report</b>: <a href="https://summerofcode.withgoogle.com/archive/2020/projects/6551712266977280/">summerofcode.withgoogle.com</a>'
-
-- title: Acuradyne
-  year: July 2019 - September 2019
-  role: Intern
-  description:
-  - 'Implemented Synchronous TCP server using Boost.Asio and Boost.Thread, increased efficiency by 30%. Also formulated a tool to calculate round trip time(RTT) of tcp packets.'
+  - Under the problem statement, lead the work of detecting lane markers and tracking their consistency using Computer vision and deep learning techniques.
+  - Trained YOLOv5 models for Road assets objects detection, achieved a reasonable mAP of around 87%.
