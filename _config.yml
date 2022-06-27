@@ -107,6 +107,7 @@ news_limit: 5
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
+future: true
 highlight_theme: monokai  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
