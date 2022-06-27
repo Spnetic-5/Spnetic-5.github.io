@@ -136,7 +136,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jekyll-sitemap
