@@ -20,6 +20,7 @@ Currently I am working as a Software Developer Intern at GroundUp, India.
 My Interests are:
 * Machine Learning
 * Deep Learning
+* Software Development
 * Cross-platform Application Development
 * Open Source
 
