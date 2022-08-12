@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-08-12T22:00:48+00:00</updated><id>/feed.xml</id><title type="html">blank</title><subtitle>Portfolio and blog for Saurabh Powar.
+</subtitle><entry><title type="html">OSPP Summer 2022 Logging</title><link href="/2022/06/27/ospp-blog.html" rel="alternate" type="text/html" title="OSPP Summer 2022 Logging" /><published>2022-06-27T00:00:00+00:00</published><updated>2022-06-27T00:00:00+00:00</updated><id>/2022/06/27/ospp-blog</id><content type="html" xml:base="/2022/06/27/ospp-blog.html"><![CDATA[<h4>——————————————————————————————————————————————————–</h4>
+
+<h2 id="pre-coding-period">Pre Coding Period</h2>
+
+<ul>
+  <li>
+    <p>After spending days and days searching for a jekyll theme for my blog, I finally found an amazing theme. So, here it is, start of my first blog.</p>
+  </li>
+  <li>
+    <p>Last week I was little busy with my ongoing Internship &amp; other stuff, I’m still exploring <code class="language-plaintext highlighter-rouge">Milvus Database</code>. No great updates but Slow &amp; Steady wins the Race 😉️!</p>
+  </li>
+</ul>
+
+<h4 id="-1">——————————————————————————————————————————————————–</h4>
+
+<h3 id="week-1">Week 1</h3>
+
+<ul>
+  <li>Face detection and alignment are important early stages of a modern face recognition pipeline.</li>
+  <li>Completed the procudure of <code class="language-plaintext highlighter-rouge">Face Detection</code> using MTCNN(Multi-Task Cascaded Convolutional Neural Networks).</li>
+  <li>Tested the detection algorithm on various images &amp; faces.</li>
+</ul>
+
+<h4 id="face-detection-results"><strong>Face Detection Results:</strong></h4>
+<p align="center">
+<br />
+<img src="https://user-images.githubusercontent.com/106381842/178055596-7f839221-9d20-4e11-ba24-fc91fc1e876f.png" height="450" />
+</p>
+
+<h4 id="colab-notebook-link"><strong>Colab Notebook Link:</strong></h4>
+<p><a href="https://colab.research.google.com/drive/1WOPVxNc33eonhDD4gX2VGQ8zofbKm3fF?usp=sharing">https://colab.research.google.com/drive/1WOPVxNc33eonhDD4gX2VGQ8zofbKm3fF?usp=sharing</a></p>
+
+<h4 id="-2">——————————————————————————————————————————————————–</h4>
+
+<h3 id="week-2">Week 2</h3>
+
+<ul>
+  <li>Tried &amp; tested Face Detection using RetinaFace</li>
+  <li>Explored Face Embeddings Extraction Methods</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">References: </code></p>
+
+<blockquote>
+  <ul>
+    <li><a href="https://www.researchgate.net/publication/313360566_FEATURE_EXTRACTION_METHODS_FOR_FACE_RECOGNITION">Research Paper- Feature Extraction</a></li>
+    <li><a href="https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=3377&amp;context=theses">A study of Face Embedding in Face Recognition</a></li>
+  </ul>
+</blockquote>
+
+<h4 id="-3">——————————————————————————————————————————————————–</h4>
+
+<h3 id="week-3">Week 3</h3>
+
+<ul>
+  <li>Completed the implementation of Facial Embeddings Extraction <code class="language-plaintext highlighter-rouge">Facenet</code> &amp; <code class="language-plaintext highlighter-rouge">OpenCV</code>.</li>
+  <li>GitHub Repo <code class="language-plaintext highlighter-rouge">[Draft]</code>:
+    <blockquote>
+      <p><a href="https://github.com/Spnetic-5/face_rec_draft">https://github.com/Spnetic-5/face_rec_draft</a></p>
+    </blockquote>
+  </li>
+</ul>
+
+<h4 id="-4">——————————————————————————————————————————————————–</h4>
+
+<h3 id="week-4">Week 4</h3>
+
+<ul>
+  <li>Loaded the <code class="language-plaintext highlighter-rouge">FaceNet</code> model to obtain embeddings from the images of cropped faces</li>
+  <li>Embeddings vectors were successfully converted back to <code class="language-plaintext highlighter-rouge">numpy</code> arrays.</li>
+  <li><a href="https://colab.research.google.com/drive/14e95NTPmreg2TBhhgcugJFLPs2InD-wL?usp=sharing">Google Colab Notebook</a></li>
+  <li>Nothing much progress this week due to placements season.</li>
+</ul>
+
+<h4 id="-5">——————————————————————————————————————————————————–</h4>
+
+<h3 id="week-5">Week 5</h3>
+
+<ul>
+  <li>Connected to the <code class="language-plaintext highlighter-rouge">Milvus</code> server &amp; created a collection in the <code class="language-plaintext highlighter-rouge">Database</code>.</li>
+  <li>Inserting vectors &amp; Storing these embeddings on <code class="language-plaintext highlighter-rouge">Milvus Database</code>.</li>
+  <li>Tried to resolve errors &amp; warnings in the code due to <code class="language-plaintext highlighter-rouge">Ubuntu 21.01</code></li>
+</ul>
+
+<h4 id="-6">——————————————————————————————————————————————————–</h4>
+
+<h3 id="week-6">Week 6</h3>
+
+<ul>
+  <li>Created a collection on the <code class="language-plaintext highlighter-rouge">Milvus Database</code> if not already present.</li>
+  <li>Imported all the face embeddings into the created collection.</li>
+  <li>Performed Indexing on the collection.</li>
+  <li>Searched for the nearest neighbor of the given image using <code class="language-plaintext highlighter-rouge">vector similarity search</code> with Milvus.</li>
+</ul>
+
+<blockquote>
+  <p>Demo Results:</p>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sp-lit@sp-lit:~/Desktop/OSPP/face_rec_draft/face_rec_bootcamp$ 
+python celeb_finder.py test.jpg 
+Running on device: cpu 💻️
+Creating a collection on Milvus Database...📊️
+Collection created.✅️
+Loading in encoded vectors...
+(51598, 512) float32 [   1    1    1 ... 3040 3040 3040]
+(51598, 512) float32 [3040 3040 3040 ...  534  534  534]
+(51598, 512) float32 [ 534  534  534 ... 7592 7593 7593]
+(51597, 512) float32 [7593 7593 7593 ... 9999 9999 9999]
+Vectors loaded in.
+Indexing the data...🔢️
+Indexed!✅️
+Searching for the image ...🧐️
+Wohoo, Similar Images/Faces found!🥳️
+[8328, 5876]
+</code></pre></div>  </div>
+</blockquote>
+
+<p><img src="https://user-images.githubusercontent.com/66636289/184447727-ec77dc47-25f7-430b-8593-1178683358f0.png" height="450" /></p>
+
+<p><code class="language-plaintext highlighter-rouge">Code</code>: <a href="https://github.com/Spnetic-5/ospp_face_rec_draft/tree/main/face_rec_bootcamp">https://github.com/Spnetic-5/ospp_face_rec_draft/tree/main/face_rec_bootcamp</a></p>
+
+<h4 id="-7">——————————————————————————————————————————————————–</h4>]]></content><author><name></name></author><summary type="html"><![CDATA[I'll be updating my weekly OSPP work reports here!]]></summary></entry></feed>
